@@ -31,6 +31,8 @@ pipeline {
 				echo "integration Test"
 		    }
 		} 
+	}	
+		
 		post {
 			always{
 				echo "i always run"
@@ -42,6 +44,6 @@ pipeline {
 				echo "i run failure"
 			}
 		}
-     }
+     
 }
 	
