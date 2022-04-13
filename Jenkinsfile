@@ -22,11 +22,11 @@ pipeline {
 				//sh 'mvn --version'
 				echo "Build"
 				echo "path - $PATH"
-				echo "Build_Number - $env.BUILD.NUMBER"
-				echo "Build_id - $env.BUILD.ID"
-				echo "job_name - $env.JOB.NAME"
-				echo "Build_tag - $env.JOB.NAME"
-				echo "build_url - $env.BUILD.URL"
+				echo "Build_Number - $env.BUILD_NUMBER"
+				echo "Build_id - $env.BUILD_ID"
+				echo "job_name - $env.JOB_NAME"
+				echo "Build_tag - $env.JOB_NAME"
+				echo "build_url - $env.BUILD_URL"
 			}
 		}
 		stage('Test') {
