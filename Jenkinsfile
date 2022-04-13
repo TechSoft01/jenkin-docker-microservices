@@ -17,17 +17,17 @@ pipeline {
 	agent any
 	stages {
 		stage('Build') {
-			step {
+			steps {
 				echo "Build"
 			}
 		}
 		stage('Test') {
-			step {
+			steps {
 				echo "Test"
 			}
 		}
 		stage('integration test') {
-			step {
+			steps {
 				echo "integration Test"
 		    }
 		}
